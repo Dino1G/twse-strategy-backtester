@@ -1,0 +1,28 @@
+# macOS
+.DS_Store
+
+# Python cache & bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.env
+.venv/
+venv/
+env/
+
+# IDE / editor
+.vscode/
+.idea/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Logs, coverage reports
+*.log
+.coverage
+htmlcov/
+
+# Ignore secrets (如果有的話)
+.env.local
